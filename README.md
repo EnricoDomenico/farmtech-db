@@ -1,6 +1,6 @@
 # FarmTech Solutions – Modelagem de Banco de Dados
 
- 📘 Descrição
+ 📘 Descrição:
 Projeto de modelagem de banco de dados relacional para sensoriamento agrícola digital. O sistema foi projetado para armazenar e analisar dados de sensores de umidade, pH e nutrientes, além de controlar a aplicação de água em plantações.
 
 ---
