@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="36709506-FC0B-FB3B-9E10-1E1879087158" containerWithKeyObject="E3E3E8B9-896E-E8D5-454A-EA9F46536A24" localFKIndex="C9D4719D-5EA1-1CB2-6D62-708ED420A021" name="Plantacao_LeituraSensor_FK">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 17:16:47 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<referredTableLongName>LeituraSensor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A9003031-D4B7-E783-13A2-622E3D6AC2DD</referredTableID>
+<keyObject>2A99B141-94AD-9570-0BAF-D9DDE72DA321</keyObject>
+<referredKeyID>2A99B141-94AD-9570-0BAF-D9DDE72DA321</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDLeitura</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

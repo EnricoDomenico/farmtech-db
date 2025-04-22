@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9003031-D4B7-E783-13A2-622E3D6AC2DD" name="LeituraSensor">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:51:55 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDLeitura" id="32E308AE-DA48-4C5F-87FD-A13CAB43F9DE">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:52:31 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDSensor" id="5B2FADE3-A141-D22A-35F2-83DCF2E57953">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:52:41 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDPlantacao" id="B3B8525A-66D2-9D51-C905-FDD78802BB12">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:53:56 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataHora" id="3AF784E8-6DC4-714F-F8D3-2F7101E9D430">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:53:56 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValorUmidade" id="B6BCF44D-3820-CF2F-4EA5-4D34B8BC9505">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:53:56 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValorPH" id="980050C0-7955-6736-C169-5920E803A59B">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:55:03 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValorFosforo" id="9480DCF2-0EFD-B292-D13F-64799F75AD5A">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:55:03 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValorPotassio" id="DC17EE43-3D45-BBA1-B255-6DCA2FB27600">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:55:03 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A99B141-94AD-9570-0BAF-D9DDE72DA321" name="LeituraSensor_PK">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:52:31 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32E308AE-DA48-4C5F-87FD-A13CAB43F9DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

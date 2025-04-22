@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3E3E8B9-896E-E8D5-454A-EA9F46536A24" name="Plantacao">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:35:07 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDPlantacao" id="2416F9C4-7D6A-C8A6-23CA-B64FE7B9908D">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:40:48 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomeCultura" id="D139A15F-929A-2907-FF95-F29145D7980C">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:45:58 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AreaTotal" id="616FE771-1EB0-A0BE-2102-2A38171BFA16">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:49:50 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Localizacao" id="0B4EEDF9-90D6-6A50-EFF6-5BE0D30027E2">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:49:50 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LeituraSensor_IDLeitura" id="2FB96F08-DBB2-E599-0209-7C8417EB086B">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 17:16:47 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36709506-FC0B-FB3B-9E10-1E1879087158" referredColumn="32E308AE-DA48-4C5F-87FD-A13CAB43F9DE"/>
+</associations>
+</Column>
+<Column name="AplicacaoAgua_IDAplicacao " id="FDACB9C5-E3F0-3209-402B-0D452D648459">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 17:17:27 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C830DD3B-B5CD-17ED-7620-2D62892B659C" referredColumn="B0335DAE-77C2-C187-57BE-64F5D06488C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88083FC7-B2B8-7906-D348-2F52F049A803" name="TABLE_1_PK">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:40:48 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2416F9C4-7D6A-C8A6-23CA-B64FE7B9908D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9D4719D-5EA1-1CB2-6D62-708ED420A021" name="Plantacao_LeituraSensor_FK">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 17:16:47 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FB96F08-DBB2-E599-0209-7C8417EB086B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9AF6596-437E-D364-0E5E-98E73B56E2B0" name="Plantacao_AplicacaoAgua_FK">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 17:17:27 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDACB9C5-E3F0-3209-402B-0D452D648459"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

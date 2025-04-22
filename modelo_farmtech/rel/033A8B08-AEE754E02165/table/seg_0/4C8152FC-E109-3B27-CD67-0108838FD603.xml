@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C8152FC-E109-3B27-CD67-0108838FD603" name="AplicacaoAgua">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:55:08 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDAplicacao " id="B0335DAE-77C2-C187-57BE-64F5D06488C6">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:56:28 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDPlantacao" id="8FE80AB3-6205-E6D4-2996-F1B8A7093FDC">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:56:28 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataHoraAplicacao" id="6C1BC2A7-F14C-397A-8251-9724161039A1">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:56:28 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuantidadeLitros" id="CFD048F6-7DDA-B871-D984-D70884B264CC">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:56:28 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B8A25CD-4F52-FA47-4AC7-0E634F56D306" name="AplicacaoAgua_PK">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 16:56:28 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0335DAE-77C2-C187-57BE-64F5D06488C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

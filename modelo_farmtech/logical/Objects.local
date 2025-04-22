@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="94A45ADE-F8C6-4518-6924-0AFE54EFB7B8" name="AplicacaoAgua" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="A87A6DFA-546F-1102-E2AA-D74C8740A8DA" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="7557A3E2-1F7D-EB6B-05E3-48960A270B65" name="LeituraSensor" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="A87A6DFA-546F-1102-E2AA-D74C8740A8DA" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F3936244-D54B-AB6D-9F2B-6E50C05385AF" name="Plantacao" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="A87A6DFA-546F-1102-E2AA-D74C8740A8DA" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="0CC870FA-BCE6-E463-7B5C-8793D52EE2BA" name="Sensor" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="A87A6DFA-546F-1102-E2AA-D74C8740A8DA" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

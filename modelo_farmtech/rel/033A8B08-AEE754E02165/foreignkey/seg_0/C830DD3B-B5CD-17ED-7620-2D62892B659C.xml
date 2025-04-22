@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C830DD3B-B5CD-17ED-7620-2D62892B659C" containerWithKeyObject="E3E3E8B9-896E-E8D5-454A-EA9F46536A24" localFKIndex="B9AF6596-437E-D364-0E5E-98E73B56E2B0" name="Plantacao_AplicacaoAgua_FK">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 17:17:27 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<referredTableLongName>AplicacaoAgua</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4C8152FC-E109-3B27-CD67-0108838FD603</referredTableID>
+<keyObject>2B8A25CD-4F52-FA47-4AC7-0E634F56D306</keyObject>
+<referredKeyID>2B8A25CD-4F52-FA47-4AC7-0E634F56D306</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDAplicacao </refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

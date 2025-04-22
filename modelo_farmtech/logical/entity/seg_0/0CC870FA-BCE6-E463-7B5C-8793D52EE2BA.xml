@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0CC870FA-BCE6-E463-7B5C-8793D52EE2BA" name="Sensor">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 17:03:54 UTC</createdTime>
+<generatorID>BB87C514-6C2B-261F-2CFB-7E176E4B727F</generatorID>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="033A8B08-2B42-C7E6-8F64-AEE754E02165" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDSensor" id="807AB64F-D975-0442-4D99-593016204D74">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 17:03:54 UTC</createdTime>
+<generatorID>DA0A7F6D-4CDD-FF01-2FC8-96FF73C00972</generatorID>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="033A8B08-2B42-C7E6-8F64-AEE754E02165" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TipoSensor" id="80A7D82A-E476-BCA1-69AF-F5C4A322DEAF">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 17:03:54 UTC</createdTime>
+<generatorID>9AC524AE-56F0-2EDC-B859-0CA8B9160114</generatorID>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="033A8B08-2B42-C7E6-8F64-AEE754E02165" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ModeloSensor" id="970F661E-CA9A-B4EB-35E9-A739D64EA19E">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 17:03:54 UTC</createdTime>
+<generatorID>AF0BE40C-9DB5-90EA-5245-9CAE792DED4B</generatorID>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="033A8B08-2B42-C7E6-8F64-AEE754E02165" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54471792-143D-894E-F208-53B924DEFF30" name="Sensor PK">
+<createdBy>enrico</createdBy>
+<createdTime>2025-04-22 17:03:54 UTC</createdTime>
+<generatorID>70DAC7AA-EAAF-BA77-34BD-C393FCD27BF2</generatorID>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="033A8B08-2B42-C7E6-8F64-AEE754E02165" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>807AB64F-D975-0442-4D99-593016204D74</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
